@@ -2,4 +2,6 @@
 
 Generate slides from slides dir with:
 
-  pandoc --data-dir=css --offline -s -t slidy -o techtalk.html techtalk.md
+    $ cabal install pandoc -fhighlighting
+    $ cd slides
+    $ pandoc --data-dir=css --offline -s -t slidy -o techtalk.html techtalk.md
